@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CseController {
-	@GetMapping("/home")
+	@GetMapping("/5f9")
 	public String disk() {
-		return "Welcome to the Cse Jenkins ghghghghg";
+		return "This is Naveen";
 	}
-	@GetMapping("/cse")
+	@GetMapping("/naveen")
 		public String disk1() {
-			return "Welcome to the Aditya";
+			return "This is Naveen(23MH1A05F9)";
 		}
 }
