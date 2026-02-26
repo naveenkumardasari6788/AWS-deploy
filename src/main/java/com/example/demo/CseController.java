@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CseController {
 	@GetMapping("/5f9")
 	public String disk() {
-		return "This is Naveen";
+		return "This is Naveen Kumar";
 	}
 	@GetMapping("/naveen")
 		public String disk1() {
